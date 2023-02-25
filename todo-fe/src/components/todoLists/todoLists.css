@@ -1,0 +1,10 @@
+.lists {
+  background-color: #eae2ff;
+  padding-top: 5vh;
+  min-height: 85vh;
+}
+.lists-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

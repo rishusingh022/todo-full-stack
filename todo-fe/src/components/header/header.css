@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 15vh;
+  background-color: #8c52ff;
+}
+.basic-padding{
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+@media screen and (max-width: 1440px) {
+  .header {
+    height: 15vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+  

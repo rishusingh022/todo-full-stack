@@ -1,0 +1,26 @@
+.create {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    cursor: pointer;
+}
+.btn {
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: white;
+  color: grey;
+  text-align: center;
+}
+
+.btn-text {
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+    padding-top: 4.5px;
+}

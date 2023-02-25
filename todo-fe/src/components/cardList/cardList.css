@@ -1,0 +1,30 @@
+.card-list-box {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 1rem 0rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .card-list-box {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-list-box {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card-list-box {
+    height: 300px;
+    width: 300px;
+  }
+}
